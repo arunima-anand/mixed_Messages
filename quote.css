@@ -1,0 +1,59 @@
+body
+{
+   background-color: teal;
+   background-image: url("flower.jpg");
+   background-position: 29% 45%;
+   background-repeat: no-repeat;
+   text-align: center; 
+}
+
+h1{
+    color:teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 100px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#quote1
+{
+    min-width: 960px;
+    margin: 0 210px 0 160px;
+    padding: 80px 50px 20px 10px;
+}
+
+#btn {
+   display: inline-block;
+   padding: 0.5em 3em;
+   border:0.16em solid #013123;
+   margin:0 0.3em 0.3em 0;
+   box-sizing: border-box;
+   text-decoration:none;
+   text-transform:uppercase;
+   font-family:'Roboto',sans-serif;
+   font-weight:400;
+   color:#faf4f4;
+   text-align:center;
+   transition: all 0.15s;
+   background-color:#ec9eab;
+   border-radius: 3px;
+   border-color: #faf4f4;
+    }
+
+    #btn:hover
+    {
+        color:#500404;
+        border-color:#BBBBBB;
+        background-color:#457551;
+        border-radius: 3px;
+        border-color: #faf4f4;   
+    }
+
+    @media all and (max-width:30em)
+    {
+        #btn
+        {
+            display:block;
+            margin:0.4em auto;
+        }
+    }
